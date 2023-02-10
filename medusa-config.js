@@ -23,10 +23,10 @@ try {
 }
 
 // CORS when consuming Medusa from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "http://176.185.250.213:7000,http://176.185.250.213:7001";
+const ADMIN_CORS = process.env.ADMIN_CORS || "http://192.168.0.4:7000,http://192.168.0.4:7001,http://192.168.0.4:3000";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://176.185.250.213:3000";
+const STORE_CORS = process.env.STORE_CORS || "http://192.168.0.4:3000";
 
 // Database URL (here we use a local database called medusa-development)
 const DATABASE_URL = process.env.DATABASE_URL || "postgres://laboulangere:c6763ecf13@localhost:5432/laboulangere";
