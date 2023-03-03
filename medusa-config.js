@@ -29,7 +29,7 @@ const ADMIN_CORS = process.env.ADMIN_CORS || "http://192.168.0.4:7000,http://192
 const STORE_CORS = process.env.STORE_CORS || "http://192.168.0.4:3000";
 
 // Database URL (here we use a local database called medusa-development)
-const DATABASE_URL = process.env.DATABASE_URL || "postgres://laboulangere:c6763ecf13@localhost:5432/laboulangere";
+const DATABASE_URL = process.env.DATABASE_URL || "postgres://";
 
 // Medusa uses Redis, so this needs configuration as well
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
